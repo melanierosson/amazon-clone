@@ -6,7 +6,9 @@ import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import { useStateValue } from './StateProvider';
 
 function Header() {
-    const [{ basket }, dispatch] = useStateValue();
+    const [{ basket }] = useStateValue();
+
+    console.log(basket);
 
     return (
         <nav className="header">
@@ -45,9 +47,11 @@ function Header() {
                 </Link>
 
                 <Link to="/checkout" className="header__link">
-                    <div class="header__optionBasket">
+                    <div className="header__optionBasket">
                         <ShoppingBasketIcon />
-                        <span className="header__optionLineTwo header__basketCount">{basket?.length}</span>
+                        <span className="header__optionLineTwo header__basketCount">
+                            {basket?.length}
+                        </span>
                     </div>
                 </Link>
 
