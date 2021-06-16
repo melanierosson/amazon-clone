@@ -1,3 +1,3 @@
 # 💰 Amazon E-Commerce Store Clone
-## 👩‍💻 React JavaScript with Router and Firebase 🔥
-### ✔️ Tutorial by Clever Programmer at https://youtu.be/1_IYL9ZMR_Y
+## ✔️ See it at https://fir-5ac06.web.app/
+### 👩‍💻 React JavaScript with Router, Context API, and Firebase 🔥
